@@ -1,6 +1,5 @@
 *.sdf
-*.sln
 *.suo
-./Debug
-*.filters
-./cppStudy/Debug
+/Debug/
+/1task/Debug/
+/2task/Debug/
