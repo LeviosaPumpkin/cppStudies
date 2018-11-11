@@ -1,8 +1,9 @@
 #include"QueueWithPriority.h"
+#include"List.h"
 
 void main()
 {
-	typedef QueueWithPriority<std::string> myQueue_type;
+	/*typedef QueueWithPriority<std::string> myQueue_type;
 	myQueue_type myQueue;
 	myQueue.Put("A", myQueue_type::LOW);
 	myQueue.Put("B", myQueue_type::LOW);
@@ -42,5 +43,8 @@ void main()
 
 	myQueue.Get();
 	myQueue.Accelerate();
-
+	*/
+	List<int> list(5);
+	list.printInOrder();
+	list.printFirstLastOrder();
 }

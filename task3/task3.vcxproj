@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{15BB6E1E-1A4C-4A5A-8EF0-7B1552B0D4CA}</ProjectGuid>
+    <ProjectGuid>{B21E6736-D8FF-4752-A1EB-BA93AA73B6F0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My2task</RootNamespace>
+    <RootNamespace>task3</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,8 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="List.h" />
-    <ClInclude Include="QueueWithPriority.h" />
+    <ClInclude Include="DataVector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
